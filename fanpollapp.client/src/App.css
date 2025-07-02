@@ -1,0 +1,16 @@
+﻿.App {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }

@@ -1,0 +1,6 @@
+@FanPollApp.Server_HostAddress = http://localhost:5110
+
+GET {{FanPollApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
